@@ -32,7 +32,7 @@
 
         userInput = Number(userInput);
         while (userInput > 100 || userInput <= 0 || Number.isNaN(userInput)) {
-            alert("max 100!");
+            alert("Input atleast 1 and max 100!");
 
             userInput = prompt("Choose number of squares per side");
             if (userInput === null) {
