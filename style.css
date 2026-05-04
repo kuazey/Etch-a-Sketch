@@ -1,3 +1,10 @@
+h1 {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+
+}
+
 .frame {
     display: flex;
     flex-wrap: wrap;
@@ -6,9 +13,25 @@
 }
 
 .cell {
-    width: calc(100% / 16);
     aspect-ratio: 1 / 1; 
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     border: 1px solid #000000;
+    
 }
+
+.amountSquares {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    display: flex;
+    justify-self: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    background-image: linear-gradient(gray, black);
+    color: white;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 10px;
+    
+};
+
